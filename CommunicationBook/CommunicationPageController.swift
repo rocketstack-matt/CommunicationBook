@@ -9,12 +9,16 @@
 import UIKit
 import AVFoundation
 
+// Global variable to track previous page for navigation
+private var lastIndex = 0
+
 class CommunicationPageController: UIViewController {
 
-    private let MAX_VIEW = 1
+    private let MAX_VIEW = 4
     private let synth = AVSpeechSynthesizer()
     
-    private var lastIndex = 0
+    @IBOutlet var grSwipeRight: UISwipeGestureRecognizer!
+    @IBOutlet var grSwipeLeft: UISwipeGestureRecognizer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,48 +47,83 @@ class CommunicationPageController: UIViewController {
         synth.speakUtterance(utterance)
     }
     
-    @IBAction func swipeDown(sender: AnyObject) {
-        lastIndex = Int(self.restorationIdentifier!)!
+    @IBAction func swipeUp(sender: AnyObject) {
         if(self.restorationIdentifier=="0" && lastIndex != 0) {
-            let vc = self.storyboard?.instantiateViewControllerWithIdentifier(String(lastIndex))
-            self.presentViewController(vc!, animated: true, completion: nil)
+            let index = lastIndex
+            lastIndex = 0
+            transitionViewController(index, direction: kCATransitionFromTop)
+        } else if(self.restorationIdentifier=="0" && lastIndex == 0) {
+            let index = 1
+            lastIndex = 0
+            transitionViewController(index, direction: kCATransitionFromTop)
         } else {
-            var index = lastIndex + 1
+            lastIndex = Int(self.restorationIdentifier!)!
+            var index = lastIndex+1
             if(index>=MAX_VIEW+1)
             {
                 index = 1;
             }
             
-            let vc = self.storyboard?.instantiateViewControllerWithIdentifier(String(index))
-            self.presentViewController(vc!, animated: true, completion: nil)
+            transitionViewController(index, direction: kCATransitionFromTop)
         }
     }
     
-    @IBAction func swipeUp(sender: AnyObject) {
-        lastIndex = Int(self.restorationIdentifier!)!
+    @IBAction func swipeDown(sender: AnyObject) {
         if(self.restorationIdentifier=="0" && lastIndex != 0) {
-            let vc = self.storyboard?.instantiateViewControllerWithIdentifier(String(lastIndex))
-            self.presentViewController(vc!, animated: true, completion: nil)
+            let index = lastIndex
+            lastIndex = 0
+            transitionViewController(index, direction: kCATransitionFromBottom)
+        } else if(self.restorationIdentifier=="0" && lastIndex == 0) {
+            let index = MAX_VIEW
+            lastIndex = 0
+            transitionViewController(index, direction: kCATransitionFromBottom)
         } else {
-            var index = lastIndex - 1
+            lastIndex = Int(self.restorationIdentifier!)!
+            var index = lastIndex-1
             if(index<=0)
             {
                 index = MAX_VIEW;
             }
-            
-            let vc = self.storyboard?.instantiateViewControllerWithIdentifier(String(index))
-            self.presentViewController(vc!, animated: true, completion: nil)
+            transitionViewController(index, direction: kCATransitionFromBottom)
         }
     }
     
-    @IBAction func swipeRightLeft(sender: AnyObject) {
-        lastIndex = Int(self.restorationIdentifier!)!
+    @IBAction func swipeRightLeft(sender: UIGestureRecognizer) {
         if(self.restorationIdentifier=="0" && lastIndex != 0) {
-            let vc = self.storyboard?.instantiateViewControllerWithIdentifier(String(lastIndex))
-            self.presentViewController(vc!, animated: true, completion: nil)
+            let index = lastIndex
+            lastIndex = 0
+            if(sender==self.grSwipeLeft) {
+                transitionViewController(index, direction: kCATransitionFromRight)
+            } else {
+                transitionViewController(index, direction: kCATransitionFromLeft)
+            }
+        } else if(self.restorationIdentifier=="0" && lastIndex == 0) {
+            let index = 1
+            lastIndex = 0
+            if(sender==self.grSwipeLeft) {
+                transitionViewController(index, direction: kCATransitionFromRight)
+            } else {
+                transitionViewController(index, direction: kCATransitionFromLeft)
+            }
         } else {
-            let vc = self.storyboard?.instantiateViewControllerWithIdentifier("0")
-            self.presentViewController(vc!, animated: true, completion: nil)
+            let index = 0
+            lastIndex = Int(self.restorationIdentifier!)!
+            if(sender==self.grSwipeLeft) {
+                transitionViewController(index, direction: kCATransitionFromRight)
+            } else {
+                transitionViewController(index, direction: kCATransitionFromLeft)
+            }
         }
     }
+    
+    private func transitionViewController(index: Int, direction: String) {
+        let vc = self.storyboard?.instantiateViewControllerWithIdentifier(String(index))
+        let transition = CATransition()
+        transition.duration = 0.3
+        transition.type = kCATransitionPush
+        transition.subtype = direction
+        self.view.window!.layer.addAnimation(transition, forKey: kCATransition)
+        self.presentViewController(vc!, animated: false, completion: nil)
+    }
+
 }

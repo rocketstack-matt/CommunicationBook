@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0921D2931D6765E30036176A /* CommunicationPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0921D2921D6765E30036176A /* CommunicationPageController.swift */; };
+		0921D2941D6765E30036176A /* CommunicationPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0921D2921D6765E30036176A /* CommunicationPageController.swift */; };
+		0921D2951D6765E30036176A /* CommunicationPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0921D2921D6765E30036176A /* CommunicationPageController.swift */; };
 		0949E7381D4CBD77006284AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0949E7371D4CBD77006284AA /* AppDelegate.swift */; };
 		0949E7401D4CBD77006284AA /* CommunicationBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0949E73E1D4CBD77006284AA /* CommunicationBook.xcdatamodeld */; };
 		0949E7421D4CBD77006284AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0949E7411D4CBD77006284AA /* Assets.xcassets */; };
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0921D2921D6765E30036176A /* CommunicationPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationPageController.swift; sourceTree = "<group>"; };
 		0949E7341D4CBD77006284AA /* CommunicationBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommunicationBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0949E7371D4CBD77006284AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0949E73F1D4CBD77006284AA /* CommunicationBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CommunicationBook.xcdatamodel; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 				0949E7431D4CBD77006284AA /* LaunchScreen.storyboard */,
 				0949E7461D4CBD77006284AA /* Info.plist */,
 				0949E73E1D4CBD77006284AA /* CommunicationBook.xcdatamodeld */,
+				0921D2921D6765E30036176A /* CommunicationPageController.swift */,
 			);
 			path = CommunicationBook;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0949E7401D4CBD77006284AA /* CommunicationBook.xcdatamodeld in Sources */,
+				0921D2931D6765E30036176A /* CommunicationPageController.swift in Sources */,
 				0949E7381D4CBD77006284AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0949E7501D4CBD77006284AA /* CommunicationBookTests.swift in Sources */,
+				0921D2941D6765E30036176A /* CommunicationPageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0949E75B1D4CBD77006284AA /* CommunicationBookUITests.swift in Sources */,
+				0921D2951D6765E30036176A /* CommunicationPageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +403,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CommunicationBook/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.codeghost.CommunicationBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +418,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CommunicationBook/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.codeghost.CommunicationBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";

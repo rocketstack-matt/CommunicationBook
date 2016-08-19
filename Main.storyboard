@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Communication Page Controller-->
         <scene sceneID="tzL-WC-mLB">
             <objects>
-                <viewController id="Mvo-kI-G4d" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="0" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Mvo-kI-G4d" customClass="CommunicationPageController" customModule="CommunicationBook" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Mn4-Mm-QMX"/>
                         <viewControllerLayoutGuide type="bottom" id="AnK-gq-3R4"/>
@@ -21,41 +21,58 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbd-RP-8Ap">
                                 <rect key="frame" x="40" y="40" width="320" height="320"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="no"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="320" id="1rG-jm-vWQ"/>
                                     <constraint firstAttribute="width" constant="320" id="bD0-7y-6aF"/>
                                 </constraints>
                                 <state key="normal" image="no"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="Mvo-kI-G4d" eventType="touchDown" id="VaG-6N-YzV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBW-Xe-dCU">
                                 <rect key="frame" x="664" y="40" width="320" height="320"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="yes"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="320" id="LhZ-uq-NfG"/>
                                     <constraint firstAttribute="width" constant="320" id="XAQ-Xo-b2l"/>
                                 </constraints>
                                 <state key="normal" image="yes"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="Mvo-kI-G4d" eventType="touchDown" id="lcr-AE-J0E"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saf-cj-vdk">
                                 <rect key="frame" x="664" y="408" width="320" height="320"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="help"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="320" id="iqw-9d-ocG"/>
                                     <constraint firstAttribute="width" constant="320" id="u76-6i-ubD"/>
                                 </constraints>
                                 <state key="normal" image="help"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="Mvo-kI-G4d" eventType="touchDown" id="veo-gH-HUB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGA-h8-th4">
                                 <rect key="frame" x="40" y="408" width="320" height="320"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="finished"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="320" id="Pny-mf-9q2"/>
                                     <constraint firstAttribute="width" constant="320" id="aXV-yf-1VW"/>
                                 </constraints>
                                 <state key="normal" image="finished"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="Mvo-kI-G4d" eventType="touchDown" id="jKO-pN-uX7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="qbd-RP-8Ap" firstAttribute="top" secondItem="Mn4-Mm-QMX" secondAttribute="bottom" constant="40" id="4vO-Of-Bfj"/>
                             <constraint firstItem="AnK-gq-3R4" firstAttribute="top" secondItem="saf-cj-vdk" secondAttribute="bottom" constant="40" id="8Aq-89-pnY"/>
@@ -66,6 +83,12 @@
                             <constraint firstAttribute="trailingMargin" secondItem="saf-cj-vdk" secondAttribute="trailing" constant="20" id="d1H-2f-Yvf"/>
                             <constraint firstItem="AnK-gq-3R4" firstAttribute="top" secondItem="iGA-h8-th4" secondAttribute="bottom" constant="40" id="mE7-uh-38q"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="v29-XN-FTm" appends="YES" id="YtG-nm-Tv7"/>
+                            <outletCollection property="gestureRecognizers" destination="49k-6V-Sjb" appends="YES" id="GY6-Gs-2Yf"/>
+                            <outletCollection property="gestureRecognizers" destination="dL2-Py-z6v" appends="YES" id="suF-9f-TIM"/>
+                            <outletCollection property="gestureRecognizers" destination="oYC-44-tax" appends="YES" id="aS0-yx-07a"/>
+                        </connections>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
@@ -74,14 +97,152 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="60q-Ga-HgN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="down" id="v29-XN-FTm">
+                    <connections>
+                        <action selector="swipeDown:" destination="Mvo-kI-G4d" id="dVa-Zo-01R"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="dL2-Py-z6v">
+                    <connections>
+                        <action selector="swipeRightLeft:" destination="Mvo-kI-G4d" id="fdv-Vd-a30"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="oYC-44-tax">
+                    <connections>
+                        <action selector="swipeRightLeft:" destination="Mvo-kI-G4d" id="y69-1l-fLk"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="49k-6V-Sjb">
+                    <connections>
+                        <action selector="swipeUp:" destination="Mvo-kI-G4d" id="5bv-23-VQX"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="431" y="342"/>
+        </scene>
+        <!--Communication Page Controller-->
+        <scene sceneID="54P-ai-4v6">
+            <objects>
+                <viewController storyboardIdentifier="1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="EHl-u8-Sv8" customClass="CommunicationPageController" customModule="CommunicationBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="usD-PO-MnM"/>
+                        <viewControllerLayoutGuide type="bottom" id="tt2-GW-CLH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FcH-BN-Zvi">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4A6-F3-DTG">
+                                <rect key="frame" x="40" y="40" width="320" height="320"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="nappy"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="320" id="8iP-uE-cgU"/>
+                                    <constraint firstAttribute="width" constant="320" id="KXN-gr-Gge"/>
+                                </constraints>
+                                <state key="normal" image="nappy"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="EHl-u8-Sv8" eventType="touchDown" id="eAo-rz-9tn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ajr-sc-LK7">
+                                <rect key="frame" x="664" y="40" width="320" height="320"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="wash hands"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="GVd-xk-46v"/>
+                                    <constraint firstAttribute="height" constant="320" id="sS2-Ui-XCR"/>
+                                </constraints>
+                                <state key="normal" image="wash-hands"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="EHl-u8-Sv8" eventType="touchDown" id="aUt-uU-b4P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNy-3R-jcg">
+                                <rect key="frame" x="664" y="408" width="320" height="320"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="wipe"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="13X-Mu-h3E"/>
+                                    <constraint firstAttribute="height" constant="320" id="Q09-Ob-aGG"/>
+                                </constraints>
+                                <state key="normal" image="wipe"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="EHl-u8-Sv8" eventType="touchDown" id="Cxk-It-UUZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7dm-lh-e1B">
+                                <rect key="frame" x="40" y="408" width="320" height="320"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="wipes"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="320" id="GrV-UI-mgf"/>
+                                    <constraint firstAttribute="width" constant="320" id="QPu-51-PM7"/>
+                                </constraints>
+                                <state key="normal" image="wipes"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="EHl-u8-Sv8" eventType="touchDown" id="fEe-1f-mYO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="yNy-3R-jcg" secondAttribute="trailing" constant="20" id="ExN-9f-Zfb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ajr-sc-LK7" secondAttribute="trailing" constant="20" id="HD8-ot-sOA"/>
+                            <constraint firstItem="Ajr-sc-LK7" firstAttribute="top" secondItem="usD-PO-MnM" secondAttribute="bottom" constant="40" id="HX7-rM-mRC"/>
+                            <constraint firstItem="tt2-GW-CLH" firstAttribute="top" secondItem="yNy-3R-jcg" secondAttribute="bottom" constant="40" id="MNC-Mj-HCC"/>
+                            <constraint firstItem="7dm-lh-e1B" firstAttribute="leading" secondItem="FcH-BN-Zvi" secondAttribute="leadingMargin" constant="20" id="Ofi-Yo-S0g"/>
+                            <constraint firstItem="4A6-F3-DTG" firstAttribute="top" secondItem="usD-PO-MnM" secondAttribute="bottom" constant="40" id="bsK-Td-zQ9"/>
+                            <constraint firstItem="tt2-GW-CLH" firstAttribute="top" secondItem="7dm-lh-e1B" secondAttribute="bottom" constant="40" id="dHc-Du-jbA"/>
+                            <constraint firstItem="4A6-F3-DTG" firstAttribute="leading" secondItem="FcH-BN-Zvi" secondAttribute="leadingMargin" constant="20" id="ew1-Tq-zVM"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Fjt-PI-RVg" appends="YES" id="zmh-rA-scS"/>
+                            <outletCollection property="gestureRecognizers" destination="PLs-z3-nQt" appends="YES" id="ds7-fk-eqE"/>
+                            <outletCollection property="gestureRecognizers" destination="umb-CP-vYo" appends="YES" id="xAk-AU-8RJ"/>
+                            <outletCollection property="gestureRecognizers" destination="VW7-E9-F0c" appends="YES" id="1gl-3Z-xmV"/>
+                        </connections>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Ea-6A-hdu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="down" id="Fjt-PI-RVg">
+                    <connections>
+                        <action selector="swipeDown:" destination="EHl-u8-Sv8" id="DdG-Md-oQ3"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="umb-CP-vYo">
+                    <connections>
+                        <action selector="swipeRightLeft:" destination="EHl-u8-Sv8" id="VbH-uo-XZ6"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="VW7-E9-F0c">
+                    <connections>
+                        <action selector="swipeRightLeft:" destination="EHl-u8-Sv8" id="b3W-Pc-hXj"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="PLs-z3-nQt">
+                    <connections>
+                        <action selector="swipeUp:" destination="EHl-u8-Sv8" id="M70-h2-jFh"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="431" y="1220"/>
         </scene>
     </scenes>
     <resources>
         <image name="finished" width="300" height="300"/>
         <image name="help" width="300" height="300"/>
+        <image name="nappy" width="300" height="300"/>
         <image name="no" width="300" height="300"/>
+        <image name="wash-hands" width="300" height="300"/>
+        <image name="wipe" width="300" height="300"/>
+        <image name="wipes" width="300" height="300"/>
         <image name="yes" width="300" height="300"/>
     </resources>
 </document>

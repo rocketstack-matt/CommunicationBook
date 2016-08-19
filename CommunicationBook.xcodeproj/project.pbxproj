@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0949E7381D4CBD77006284AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0949E7371D4CBD77006284AA /* AppDelegate.swift */; };
-		0949E73A1D4CBD77006284AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0949E7391D4CBD77006284AA /* ViewController.swift */; };
-		0949E73D1D4CBD77006284AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0949E73B1D4CBD77006284AA /* Main.storyboard */; };
 		0949E7401D4CBD77006284AA /* CommunicationBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0949E73E1D4CBD77006284AA /* CommunicationBook.xcdatamodeld */; };
 		0949E7421D4CBD77006284AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0949E7411D4CBD77006284AA /* Assets.xcassets */; };
 		0949E7451D4CBD77006284AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0949E7431D4CBD77006284AA /* LaunchScreen.storyboard */; };
 		0949E7501D4CBD77006284AA /* CommunicationBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0949E74F1D4CBD77006284AA /* CommunicationBookTests.swift */; };
 		0949E75B1D4CBD77006284AA /* CommunicationBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0949E75A1D4CBD77006284AA /* CommunicationBookUITests.swift */; };
+		0949E76D1D4CBF42006284AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0949E76C1D4CBF42006284AA /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +36,6 @@
 /* Begin PBXFileReference section */
 		0949E7341D4CBD77006284AA /* CommunicationBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommunicationBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0949E7371D4CBD77006284AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0949E7391D4CBD77006284AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0949E73C1D4CBD77006284AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0949E73F1D4CBD77006284AA /* CommunicationBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CommunicationBook.xcdatamodel; sourceTree = "<group>"; };
 		0949E7411D4CBD77006284AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0949E7441D4CBD77006284AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +46,7 @@
 		0949E7561D4CBD77006284AA /* CommunicationBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommunicationBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0949E75A1D4CBD77006284AA /* CommunicationBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationBookUITests.swift; sourceTree = "<group>"; };
 		0949E75C1D4CBD77006284AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0949E76C1D4CBF42006284AA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +97,8 @@
 		0949E7361D4CBD77006284AA /* CommunicationBook */ = {
 			isa = PBXGroup;
 			children = (
+				0949E76C1D4CBF42006284AA /* Main.storyboard */,
 				0949E7371D4CBD77006284AA /* AppDelegate.swift */,
-				0949E7391D4CBD77006284AA /* ViewController.swift */,
-				0949E73B1D4CBD77006284AA /* Main.storyboard */,
 				0949E7411D4CBD77006284AA /* Assets.xcassets */,
 				0949E7431D4CBD77006284AA /* LaunchScreen.storyboard */,
 				0949E7461D4CBD77006284AA /* Info.plist */,
@@ -196,6 +193,7 @@
 				TargetAttributes = {
 					0949E7331D4CBD77006284AA = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5Y247KU3Y3;
 					};
 					0949E74A1D4CBD77006284AA = {
 						CreatedOnToolsVersion = 7.2;
@@ -234,7 +232,7 @@
 			files = (
 				0949E7451D4CBD77006284AA /* LaunchScreen.storyboard in Resources */,
 				0949E7421D4CBD77006284AA /* Assets.xcassets in Resources */,
-				0949E73D1D4CBD77006284AA /* Main.storyboard in Resources */,
+				0949E76D1D4CBF42006284AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0949E73A1D4CBD77006284AA /* ViewController.swift in Sources */,
 				0949E7401D4CBD77006284AA /* CommunicationBook.xcdatamodeld in Sources */,
 				0949E7381D4CBD77006284AA /* AppDelegate.swift in Sources */,
 			);
@@ -297,14 +294,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0949E73B1D4CBD77006284AA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0949E73C1D4CBD77006284AA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0949E7431D4CBD77006284AA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -403,10 +392,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CommunicationBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.codeghost.CommunicationBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -414,10 +407,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CommunicationBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.codeghost.CommunicationBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -488,6 +485,7 @@
 				0949E7611D4CBD77006284AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0949E7621D4CBD77006284AA /* Build configuration list for PBXNativeTarget "CommunicationBookTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +494,7 @@
 				0949E7641D4CBD77006284AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0949E7651D4CBD77006284AA /* Build configuration list for PBXNativeTarget "CommunicationBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +503,7 @@
 				0949E7671D4CBD77006284AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

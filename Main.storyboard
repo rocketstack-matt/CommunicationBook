@@ -100,22 +100,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="60q-Ga-HgN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="v29-XN-FTm">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="v29-XN-FTm">
                     <connections>
                         <action selector="swipeDown:" destination="Mvo-kI-G4d" id="dVa-Zo-01R"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="dL2-Py-z6v">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="dL2-Py-z6v">
                     <connections>
                         <action selector="swipeRightLeft:" destination="Mvo-kI-G4d" id="fdv-Vd-a30"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="oYC-44-tax">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="oYC-44-tax">
                     <connections>
                         <action selector="swipeRightLeft:" destination="Mvo-kI-G4d" id="y69-1l-fLk"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="49k-6V-Sjb">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="49k-6V-Sjb">
                     <connections>
                         <action selector="swipeUp:" destination="Mvo-kI-G4d" id="5bv-23-VQX"/>
                     </connections>
@@ -218,22 +218,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Ea-6A-hdu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="Fjt-PI-RVg">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="Fjt-PI-RVg">
                     <connections>
                         <action selector="swipeDown:" destination="EHl-u8-Sv8" id="DdG-Md-oQ3"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="umb-CP-vYo">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="umb-CP-vYo">
                     <connections>
                         <action selector="swipeRightLeft:" destination="EHl-u8-Sv8" id="VbH-uo-XZ6"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="VW7-E9-F0c">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="VW7-E9-F0c">
                     <connections>
                         <action selector="swipeRightLeft:" destination="EHl-u8-Sv8" id="b3W-Pc-hXj"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="PLs-z3-nQt">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="PLs-z3-nQt">
                     <connections>
                         <action selector="swipeUp:" destination="EHl-u8-Sv8" id="M70-h2-jFh"/>
                     </connections>
@@ -336,22 +336,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="heA-zS-j61" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="ck7-Dn-Bfk">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="ck7-Dn-Bfk">
                     <connections>
                         <action selector="swipeDown:" destination="mEQ-QQ-B8P" id="Md3-pS-fwN"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="pat-Id-AaG">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="pat-Id-AaG">
                     <connections>
                         <action selector="swipeRightLeft:" destination="mEQ-QQ-B8P" id="y8g-mK-Y9g"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="AIH-aN-dA7">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="AIH-aN-dA7">
                     <connections>
                         <action selector="swipeRightLeft:" destination="mEQ-QQ-B8P" id="mRZ-1D-dEg"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="uzX-2Z-LyS">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="uzX-2Z-LyS">
                     <connections>
                         <action selector="swipeUp:" destination="mEQ-QQ-B8P" id="1Wg-IF-uWM"/>
                     </connections>
@@ -454,22 +454,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cyX-J3-52c" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="PYP-2h-3bt">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="PYP-2h-3bt">
                     <connections>
                         <action selector="swipeDown:" destination="Hxg-lB-Jjo" id="7iR-NW-hEZ"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="1Qx-jj-145">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="1Qx-jj-145">
                     <connections>
                         <action selector="swipeRightLeft:" destination="Hxg-lB-Jjo" id="qqw-1F-pEA"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="ITM-QL-Na9">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="ITM-QL-Na9">
                     <connections>
                         <action selector="swipeRightLeft:" destination="Hxg-lB-Jjo" id="dgg-UN-L0p"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="6Xt-2Y-pLC">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="6Xt-2Y-pLC">
                     <connections>
                         <action selector="swipeUp:" destination="Hxg-lB-Jjo" id="KEB-tt-b1V"/>
                     </connections>
@@ -572,22 +572,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ang-y0-A8l" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="ZWs-bk-wZu">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="ZWs-bk-wZu">
                     <connections>
                         <action selector="swipeDown:" destination="KLS-nW-GNA" id="kUe-OV-l7T"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="qMR-sk-CDg">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="qMR-sk-CDg">
                     <connections>
                         <action selector="swipeRightLeft:" destination="KLS-nW-GNA" id="XM8-yd-wlM"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="Wcz-KD-pda">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="Wcz-KD-pda">
                     <connections>
                         <action selector="swipeRightLeft:" destination="KLS-nW-GNA" id="8XZ-q1-TyO"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="IPV-ZB-cbR">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="IPV-ZB-cbR">
                     <connections>
                         <action selector="swipeUp:" destination="KLS-nW-GNA" id="4xG-lC-Jix"/>
                     </connections>
@@ -690,22 +690,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bth-fr-XpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="Uc5-xP-nTo">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="Uc5-xP-nTo">
                     <connections>
                         <action selector="swipeDown:" destination="bVc-FO-muD" id="gij-to-RkQ"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="U3F-KJ-dQ4">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="U3F-KJ-dQ4">
                     <connections>
                         <action selector="swipeRightLeft:" destination="bVc-FO-muD" id="b5H-uc-9Gq"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="FJI-33-bfD">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="FJI-33-bfD">
                     <connections>
                         <action selector="swipeRightLeft:" destination="bVc-FO-muD" id="IGi-0a-LIC"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="IS9-6k-ds4">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="IS9-6k-ds4">
                     <connections>
                         <action selector="swipeUp:" destination="bVc-FO-muD" id="9FW-Ff-Wxh"/>
                     </connections>
@@ -808,22 +808,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3eL-vF-ros" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="B8l-hC-kPJ">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="B8l-hC-kPJ">
                     <connections>
                         <action selector="swipeDown:" destination="hvs-Gp-KFl" id="8QE-xX-uxF"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="L0e-Sg-rDc">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="L0e-Sg-rDc">
                     <connections>
                         <action selector="swipeRightLeft:" destination="hvs-Gp-KFl" id="nJL-AE-70z"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="E0Q-cA-eQF">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="E0Q-cA-eQF">
                     <connections>
                         <action selector="swipeRightLeft:" destination="hvs-Gp-KFl" id="dTH-uK-2ji"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="ZUJ-vP-57k">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="ZUJ-vP-57k">
                     <connections>
                         <action selector="swipeUp:" destination="hvs-Gp-KFl" id="ziM-8V-9C2"/>
                     </connections>
@@ -926,22 +926,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EMA-LH-Yiu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="CFr-yr-Asy">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="CFr-yr-Asy">
                     <connections>
                         <action selector="swipeDown:" destination="jEO-pa-rri" id="cEl-fM-VNC"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="Ne3-vD-lMf">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="Ne3-vD-lMf">
                     <connections>
                         <action selector="swipeRightLeft:" destination="jEO-pa-rri" id="Syb-qr-3aK"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="8TA-3Q-T2f">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="8TA-3Q-T2f">
                     <connections>
                         <action selector="swipeRightLeft:" destination="jEO-pa-rri" id="snq-1n-abH"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="9ev-sa-iQV">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="9ev-sa-iQV">
                     <connections>
                         <action selector="swipeUp:" destination="jEO-pa-rri" id="ABU-BS-bgc"/>
                     </connections>
@@ -1044,22 +1044,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jwF-Ty-tUy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="ye1-vJ-FNd">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="ye1-vJ-FNd">
                     <connections>
                         <action selector="swipeDown:" destination="pR7-by-b4L" id="bgb-Hw-5yP"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="sQ0-F6-WIk">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="sQ0-F6-WIk">
                     <connections>
                         <action selector="swipeRightLeft:" destination="pR7-by-b4L" id="R0Z-5k-Z6u"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="vGA-Cw-ZRS">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="vGA-Cw-ZRS">
                     <connections>
                         <action selector="swipeRightLeft:" destination="pR7-by-b4L" id="dKK-ca-1Dh"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="fXK-jU-qbn">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="fXK-jU-qbn">
                     <connections>
                         <action selector="swipeUp:" destination="pR7-by-b4L" id="Lo0-xU-Wiz"/>
                     </connections>
@@ -1162,22 +1162,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xyD-Ax-9kT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="YfL-UE-BHw">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="YfL-UE-BHw">
                     <connections>
                         <action selector="swipeDown:" destination="bc4-I6-Hme" id="u40-0K-dXo"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="gek-2c-8XC">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="gek-2c-8XC">
                     <connections>
                         <action selector="swipeRightLeft:" destination="bc4-I6-Hme" id="4nR-Ms-4KF"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="SaD-Df-jcy">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="SaD-Df-jcy">
                     <connections>
                         <action selector="swipeRightLeft:" destination="bc4-I6-Hme" id="Pd8-Qi-U90"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="Ec3-4Q-Egf">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="Ec3-4Q-Egf">
                     <connections>
                         <action selector="swipeUp:" destination="bc4-I6-Hme" id="r5S-mk-TQv"/>
                     </connections>
@@ -1280,22 +1280,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zl5-c6-hcr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="qtA-E0-dnB">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="qtA-E0-dnB">
                     <connections>
                         <action selector="swipeDown:" destination="U9i-IR-vST" id="dHm-IG-nEX"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="xUa-LI-Roe">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="xUa-LI-Roe">
                     <connections>
                         <action selector="swipeRightLeft:" destination="U9i-IR-vST" id="WSi-oW-Kzg"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="8Wd-Yv-4rE">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="8Wd-Yv-4rE">
                     <connections>
                         <action selector="swipeRightLeft:" destination="U9i-IR-vST" id="cvM-xU-Va8"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="QEu-np-Kia">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="QEu-np-Kia">
                     <connections>
                         <action selector="swipeUp:" destination="U9i-IR-vST" id="o1j-6M-cke"/>
                     </connections>
@@ -1398,22 +1398,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VeV-fx-jFg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="KLr-jb-9hr">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="KLr-jb-9hr">
                     <connections>
                         <action selector="swipeDown:" destination="LBA-XD-xCZ" id="2ce-Pi-XOG"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="cqW-eS-uyt">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="cqW-eS-uyt">
                     <connections>
                         <action selector="swipeRightLeft:" destination="LBA-XD-xCZ" id="VHZ-QK-xbk"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="WQg-5p-OuY">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="WQg-5p-OuY">
                     <connections>
                         <action selector="swipeRightLeft:" destination="LBA-XD-xCZ" id="9wT-uZ-6fk"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="hgK-Dg-q1j">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="hgK-Dg-q1j">
                     <connections>
                         <action selector="swipeUp:" destination="LBA-XD-xCZ" id="gSM-2n-24U"/>
                     </connections>
@@ -1516,22 +1516,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uOO-cv-0qY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="nfU-Dk-7Vr">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="nfU-Dk-7Vr">
                     <connections>
                         <action selector="swipeDown:" destination="A2Q-2A-BmZ" id="qzL-oW-O2B"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="ZES-Oo-uSc">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="ZES-Oo-uSc">
                     <connections>
                         <action selector="swipeRightLeft:" destination="A2Q-2A-BmZ" id="lh6-85-IUL"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="T74-24-Imr">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="T74-24-Imr">
                     <connections>
                         <action selector="swipeRightLeft:" destination="A2Q-2A-BmZ" id="bwb-Cb-UMS"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="2Uq-mU-5hD">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="2Uq-mU-5hD">
                     <connections>
                         <action selector="swipeUp:" destination="A2Q-2A-BmZ" id="U0t-eG-ohR"/>
                     </connections>
@@ -1634,22 +1634,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T2r-5q-2D1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="RGX-UJ-RsT">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="RGX-UJ-RsT">
                     <connections>
                         <action selector="swipeDown:" destination="pFI-rk-Hgg" id="314-yt-Lza"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="XON-p4-NfC">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="XON-p4-NfC">
                     <connections>
                         <action selector="swipeRightLeft:" destination="pFI-rk-Hgg" id="S7Z-pB-13H"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="N7P-oa-yEI">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="N7P-oa-yEI">
                     <connections>
                         <action selector="swipeRightLeft:" destination="pFI-rk-Hgg" id="00C-Mg-oVS"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="oh3-it-fK1">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="oh3-it-fK1">
                     <connections>
                         <action selector="swipeUp:" destination="pFI-rk-Hgg" id="jS8-6T-tTv"/>
                     </connections>
@@ -1752,22 +1752,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l6Q-3B-HT8" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="vNl-Tb-46p">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="vNl-Tb-46p">
                     <connections>
                         <action selector="swipeDown:" destination="lVi-wg-JmV" id="96l-Cg-6kt"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="Wvs-hc-BV1">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="Wvs-hc-BV1">
                     <connections>
                         <action selector="swipeRightLeft:" destination="lVi-wg-JmV" id="RgU-dp-DOU"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="0Rb-sr-DC6">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="0Rb-sr-DC6">
                     <connections>
                         <action selector="swipeRightLeft:" destination="lVi-wg-JmV" id="Ei9-in-X6d"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="Mvg-KE-RaR">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="Mvg-KE-RaR">
                     <connections>
                         <action selector="swipeUp:" destination="lVi-wg-JmV" id="eCW-Wv-zmp"/>
                     </connections>
@@ -1870,22 +1870,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vnN-8k-idG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="6r0-Da-MAC">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="6r0-Da-MAC">
                     <connections>
                         <action selector="swipeDown:" destination="RY5-bd-0xV" id="hrQ-vB-DpH"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="Y6Y-Td-eWr">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="Y6Y-Td-eWr">
                     <connections>
                         <action selector="swipeRightLeft:" destination="RY5-bd-0xV" id="BiN-8o-ZRf"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="rmT-5O-4br">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="rmT-5O-4br">
                     <connections>
                         <action selector="swipeRightLeft:" destination="RY5-bd-0xV" id="OT3-eD-qWk"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="Urh-oU-JVI">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="Urh-oU-JVI">
                     <connections>
                         <action selector="swipeUp:" destination="RY5-bd-0xV" id="lAH-HZ-gnQ"/>
                     </connections>
@@ -1988,22 +1988,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wJm-dM-K8I" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="B3w-NP-qIW">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="B3w-NP-qIW">
                     <connections>
                         <action selector="swipeDown:" destination="r5z-2o-EQj" id="Fm7-Ie-YFr"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="upd-pV-gqW">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="upd-pV-gqW">
                     <connections>
                         <action selector="swipeRightLeft:" destination="r5z-2o-EQj" id="ook-80-GJe"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="RVk-CM-3O4">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="RVk-CM-3O4">
                     <connections>
                         <action selector="swipeRightLeft:" destination="r5z-2o-EQj" id="uGy-Nx-gdR"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="KYk-wD-gDh">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="KYk-wD-gDh">
                     <connections>
                         <action selector="swipeUp:" destination="r5z-2o-EQj" id="aGb-xz-6ZR"/>
                     </connections>
@@ -2106,22 +2106,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IWY-H5-Di0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="8YE-0L-6Xl">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="8YE-0L-6Xl">
                     <connections>
                         <action selector="swipeDown:" destination="bSU-XE-n0T" id="Bdg-ac-uVU"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="GWM-vH-cjQ">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="GWM-vH-cjQ">
                     <connections>
                         <action selector="swipeRightLeft:" destination="bSU-XE-n0T" id="Cyo-YN-HNj"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="O7w-lv-rGS">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="O7w-lv-rGS">
                     <connections>
                         <action selector="swipeRightLeft:" destination="bSU-XE-n0T" id="ndb-s2-Vr6"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="H4X-Ou-fr7">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="H4X-Ou-fr7">
                     <connections>
                         <action selector="swipeUp:" destination="bSU-XE-n0T" id="nKb-YP-znH"/>
                     </connections>
@@ -2224,22 +2224,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xyE-TN-nLN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="edR-jh-3GG">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="edR-jh-3GG">
                     <connections>
                         <action selector="swipeDown:" destination="zWY-oS-FaG" id="Vo4-XZ-2DU"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="9BL-Pv-sAz">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="9BL-Pv-sAz">
                     <connections>
                         <action selector="swipeRightLeft:" destination="zWY-oS-FaG" id="SNR-7h-jMo"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="ikd-tt-4xQ">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="ikd-tt-4xQ">
                     <connections>
                         <action selector="swipeRightLeft:" destination="zWY-oS-FaG" id="HZt-90-GBn"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="jzA-Dj-DfX">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="jzA-Dj-DfX">
                     <connections>
                         <action selector="swipeUp:" destination="zWY-oS-FaG" id="Qf3-1y-Ucd"/>
                     </connections>
@@ -2342,22 +2342,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ACC-LI-bNZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="gKA-C2-9PZ">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="gKA-C2-9PZ">
                     <connections>
                         <action selector="swipeDown:" destination="PGH-eK-Mss" id="kXM-fj-bUz"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="SM3-LP-pWQ">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="SM3-LP-pWQ">
                     <connections>
                         <action selector="swipeRightLeft:" destination="PGH-eK-Mss" id="tXp-HC-ZBM"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="Vpk-sq-XZ2">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="Vpk-sq-XZ2">
                     <connections>
                         <action selector="swipeRightLeft:" destination="PGH-eK-Mss" id="rBJ-sb-Lc9"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="Lew-9d-tPx">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="Lew-9d-tPx">
                     <connections>
                         <action selector="swipeUp:" destination="PGH-eK-Mss" id="hfQ-yC-Jhy"/>
                     </connections>
@@ -2460,22 +2460,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4V2-sR-Xya" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="fmE-9L-t3B">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="fmE-9L-t3B">
                     <connections>
                         <action selector="swipeDown:" destination="ONv-jM-vv2" id="VJ3-i8-YX4"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="Hc3-9a-WYv">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="Hc3-9a-WYv">
                     <connections>
                         <action selector="swipeRightLeft:" destination="ONv-jM-vv2" id="iRy-4U-UoI"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="Thk-iN-e8s">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="Thk-iN-e8s">
                     <connections>
                         <action selector="swipeRightLeft:" destination="ONv-jM-vv2" id="uQu-Hc-Xxo"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="ikR-I9-6G6">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="ikR-I9-6G6">
                     <connections>
                         <action selector="swipeUp:" destination="ONv-jM-vv2" id="hmm-7e-ak5"/>
                     </connections>
@@ -2578,22 +2578,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3cv-6I-WbH" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="n0r-GQ-QOd">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="n0r-GQ-QOd">
                     <connections>
                         <action selector="swipeDown:" destination="H6d-8x-yaR" id="HP5-aL-v92"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="EC6-Fs-tiR">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="EC6-Fs-tiR">
                     <connections>
                         <action selector="swipeRightLeft:" destination="H6d-8x-yaR" id="ZKl-5c-MhI"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="ram-as-H9M">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="ram-as-H9M">
                     <connections>
                         <action selector="swipeRightLeft:" destination="H6d-8x-yaR" id="y6O-Ag-Z6L"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="Bog-TE-i0Z">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="Bog-TE-i0Z">
                     <connections>
                         <action selector="swipeUp:" destination="H6d-8x-yaR" id="BpP-A9-Qbv"/>
                     </connections>
@@ -2696,22 +2696,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hyx-9X-ee1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="WFQ-lh-naV">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="WFQ-lh-naV">
                     <connections>
                         <action selector="swipeDown:" destination="zh5-VF-gDW" id="Fgc-4Y-hM8"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="3GO-US-O04">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="3GO-US-O04">
                     <connections>
                         <action selector="swipeRightLeft:" destination="zh5-VF-gDW" id="CDv-WH-2ET"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="Iks-je-Ymj">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="Iks-je-Ymj">
                     <connections>
                         <action selector="swipeRightLeft:" destination="zh5-VF-gDW" id="KqH-wi-uNk"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="4gR-n6-Pu0">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="4gR-n6-Pu0">
                     <connections>
                         <action selector="swipeUp:" destination="zh5-VF-gDW" id="agr-g8-rn6"/>
                     </connections>
@@ -2814,22 +2814,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fFt-3r-dUy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="NJJ-Sx-zMR">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="NJJ-Sx-zMR">
                     <connections>
                         <action selector="swipeDown:" destination="hej-p7-QS2" id="D9o-dc-Bal"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="fqI-Cm-7rb">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="fqI-Cm-7rb">
                     <connections>
                         <action selector="swipeRightLeft:" destination="hej-p7-QS2" id="oSK-j0-5HR"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="Q7G-4S-dfh">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="Q7G-4S-dfh">
                     <connections>
                         <action selector="swipeRightLeft:" destination="hej-p7-QS2" id="oZ1-2Y-cdg"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="uNf-aP-LNh">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="uNf-aP-LNh">
                     <connections>
                         <action selector="swipeUp:" destination="hej-p7-QS2" id="41q-7B-du3"/>
                     </connections>
@@ -2932,22 +2932,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="huK-AO-Oyq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="qfh-KY-H2Z">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="qfh-KY-H2Z">
                     <connections>
                         <action selector="swipeDown:" destination="6G4-EC-sSg" id="QVn-NN-J7F"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="Klw-P2-wCb">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="Klw-P2-wCb">
                     <connections>
                         <action selector="swipeRightLeft:" destination="6G4-EC-sSg" id="JPW-qK-lRN"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="STq-rb-fvU">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="STq-rb-fvU">
                     <connections>
                         <action selector="swipeRightLeft:" destination="6G4-EC-sSg" id="Wnl-ls-mKw"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="gdE-IE-tWw">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="gdE-IE-tWw">
                     <connections>
                         <action selector="swipeUp:" destination="6G4-EC-sSg" id="Wdr-xE-4Qs"/>
                     </connections>
@@ -3050,22 +3050,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cSe-Nn-obE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="0M3-ut-Uxg">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="0M3-ut-Uxg">
                     <connections>
                         <action selector="swipeDown:" destination="UgB-TT-0Pt" id="LrP-W6-BFo"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="esZ-zA-dDt">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="esZ-zA-dDt">
                     <connections>
                         <action selector="swipeRightLeft:" destination="UgB-TT-0Pt" id="FVx-Vm-vXc"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="7Qw-nR-chf">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="7Qw-nR-chf">
                     <connections>
                         <action selector="swipeRightLeft:" destination="UgB-TT-0Pt" id="KkC-AU-3PU"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="pGl-se-qRt">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="pGl-se-qRt">
                     <connections>
                         <action selector="swipeUp:" destination="UgB-TT-0Pt" id="wBg-l4-c8R"/>
                     </connections>
@@ -3168,22 +3168,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PZe-J2-6su" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="pjR-3R-IK3">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="pjR-3R-IK3">
                     <connections>
                         <action selector="swipeDown:" destination="BIF-34-dhx" id="tfy-Jw-rd6"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="AmR-T0-oOW">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="AmR-T0-oOW">
                     <connections>
                         <action selector="swipeRightLeft:" destination="BIF-34-dhx" id="GTH-Yk-NfV"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="FZK-qG-lsH">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="FZK-qG-lsH">
                     <connections>
                         <action selector="swipeRightLeft:" destination="BIF-34-dhx" id="fwa-mv-hXT"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="s7T-GH-o4B">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="s7T-GH-o4B">
                     <connections>
                         <action selector="swipeUp:" destination="BIF-34-dhx" id="IlY-qE-W75"/>
                     </connections>
@@ -3256,22 +3256,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dS9-Wd-4xg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="down" id="BWN-jF-YWO">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="BWN-jF-YWO">
                     <connections>
                         <action selector="swipeDown:" destination="yzK-AN-gIr" id="h9n-s3-QQA"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="6oV-f6-4AD">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="6oV-f6-4AD">
                     <connections>
                         <action selector="swipeRightLeft:" destination="yzK-AN-gIr" id="JdH-2z-5q9"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="left" id="94w-0i-5rR">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="94w-0i-5rR">
                     <connections>
                         <action selector="swipeRightLeft:" destination="yzK-AN-gIr" id="OZf-18-eJa"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="rHk-iz-6Qn">
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="up" id="rHk-iz-6Qn">
                     <connections>
                         <action selector="swipeUp:" destination="yzK-AN-gIr" id="NRe-Sg-zxL"/>
                     </connections>

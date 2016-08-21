@@ -16,7 +16,6 @@ class CommunicationPageController: UIViewController, AVSpeechSynthesizerDelegate
 
     private let MAX_VIEW = 27
     private let synth = AVSpeechSynthesizer()
-    private var buttons: [UIButton] = []
 
     @IBOutlet var grSwipeRight: UISwipeGestureRecognizer!
     @IBOutlet var grSwipeLeft: UISwipeGestureRecognizer!
@@ -25,12 +24,6 @@ class CommunicationPageController: UIViewController, AVSpeechSynthesizerDelegate
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        view.subviews.forEach { (subview) -> () in
-            if let button = subview as? UIButton {
-                buttons.append(button)
-            }
-        }
-        
         synth.delegate = self
     }
 
@@ -51,17 +44,25 @@ class CommunicationPageController: UIViewController, AVSpeechSynthesizerDelegate
     */
     
     func speechSynthesizer(synthesizer: AVSpeechSynthesizer, didFinishSpeechUtterance utterance: AVSpeechUtterance) {
-        changeButtonState()
+        changeButtonAndGestureRecognizerState()
     }
     
-    private func changeButtonState() {
-        buttons.forEach { (button) -> () in
-            button.userInteractionEnabled = !button.userInteractionEnabled
+    private func changeButtonAndGestureRecognizerState() {
+        // Update button state during/after speaking
+        view.subviews.forEach { (subview) -> () in
+            if let button = subview as? UIButton {
+                button.userInteractionEnabled = !button.userInteractionEnabled
+            }
         }
+        
+        // Update gesture recognizer state during/after speaking
+        view.gestureRecognizers?.forEach({ (gr) -> () in
+            gr.enabled = !gr.enabled
+        })
     }
     
     @IBAction func touchButtonDown(sender: UIButton) {
-        changeButtonState()
+        changeButtonAndGestureRecognizerState()
         let utterance = AVSpeechUtterance(string: sender.accessibilityLabel!)
         synth.speakUtterance(utterance)
     }

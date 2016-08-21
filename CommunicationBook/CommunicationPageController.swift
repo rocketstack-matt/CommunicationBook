@@ -14,7 +14,7 @@ private var lastIndex = 0
 
 class CommunicationPageController: UIViewController {
 
-    private let MAX_VIEW = 16
+    private let MAX_VIEW = 17
     private let synth = AVSpeechSynthesizer()
     
     @IBOutlet var grSwipeRight: UISwipeGestureRecognizer!

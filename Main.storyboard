@@ -1906,11 +1906,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIB-N9-Gfp">
-                                <rect key="frame" x="40" y="40" width="320" height="320"/>
+                                <rect key="frame" x="40" y="90" width="320" height="220"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration" label="old macdonald"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="320" id="Nuh-jw-bKa"/>
+                                    <constraint firstAttribute="height" constant="220" id="Nuh-jw-bKa"/>
                                     <constraint firstAttribute="width" constant="320" id="wIi-eh-R0h"/>
                                 </constraints>
                                 <state key="normal" image="old-macdonald"/>
@@ -1918,25 +1918,12 @@
                                     <action selector="touchButtonDown:" destination="r5z-2o-EQj" eventType="touchDown" id="Wo4-uE-C0o"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofC-ol-akU">
-                                <rect key="frame" x="40" y="408" width="320" height="320"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <accessibility key="accessibilityConfiguration" label="wind the bobbin up"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="UMG-yY-gcK"/>
-                                    <constraint firstAttribute="height" constant="320" id="on8-0o-BCn"/>
-                                </constraints>
-                                <state key="normal" image="bobbin"/>
-                                <connections>
-                                    <action selector="touchButtonDown:" destination="r5z-2o-EQj" eventType="touchDown" id="iMo-i4-zbr"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDD-Ya-hF6">
-                                <rect key="frame" x="664" y="40" width="320" height="320"/>
+                                <rect key="frame" x="664" y="90" width="320" height="220"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration" label="twinkle twinkle"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="320" id="OWb-Mr-cPt"/>
+                                    <constraint firstAttribute="height" constant="220" id="OWb-Mr-cPt"/>
                                     <constraint firstAttribute="width" constant="320" id="UqJ-Lp-6fq"/>
                                 </constraints>
                                 <state key="normal" image="twinkle"/>
@@ -1945,11 +1932,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72z-wR-ja4">
-                                <rect key="frame" x="664" y="408" width="320" height="320"/>
+                                <rect key="frame" x="664" y="458" width="320" height="220"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration" label="incy wincy spider"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="320" id="YBO-Vw-c0H"/>
+                                    <constraint firstAttribute="height" constant="220" id="YBO-Vw-c0H"/>
                                     <constraint firstAttribute="width" constant="320" id="yOA-qj-lHd"/>
                                 </constraints>
                                 <state key="normal" image="incy"/>
@@ -1957,18 +1944,31 @@
                                     <action selector="touchButtonDown:" destination="r5z-2o-EQj" eventType="touchDown" id="ZGa-6A-MfM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofC-ol-akU">
+                                <rect key="frame" x="40" y="458" width="320" height="220"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="whynde the bobbin up"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="UMG-yY-gcK"/>
+                                    <constraint firstAttribute="height" constant="220" id="on8-0o-BCn"/>
+                                </constraints>
+                                <state key="normal" image="bobbin"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="r5z-2o-EQj" eventType="touchDown" id="iMo-i4-zbr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="Qir-GG-Mti" firstAttribute="top" secondItem="ofC-ol-akU" secondAttribute="bottom" constant="40" id="1Gh-hv-1XW"/>
+                            <constraint firstItem="Qir-GG-Mti" firstAttribute="top" secondItem="ofC-ol-akU" secondAttribute="bottom" constant="90" id="1Gh-hv-1XW"/>
                             <constraint firstAttribute="trailingMargin" secondItem="72z-wR-ja4" secondAttribute="trailing" constant="20" id="5cO-od-fRc"/>
                             <constraint firstItem="ofC-ol-akU" firstAttribute="leading" secondItem="LJe-G5-86A" secondAttribute="leadingMargin" constant="20" id="Dbv-Mv-o6R"/>
                             <constraint firstAttribute="trailingMargin" secondItem="XDD-Ya-hF6" secondAttribute="trailing" constant="20" id="I4d-E1-uM7"/>
                             <constraint firstItem="iIB-N9-Gfp" firstAttribute="leading" secondItem="LJe-G5-86A" secondAttribute="leadingMargin" constant="20" id="U2B-XV-DZU"/>
-                            <constraint firstItem="XDD-Ya-hF6" firstAttribute="top" secondItem="Qqf-uo-BxG" secondAttribute="bottom" constant="40" id="V3j-0P-O3k"/>
-                            <constraint firstItem="Qir-GG-Mti" firstAttribute="top" secondItem="72z-wR-ja4" secondAttribute="bottom" constant="40" id="WSK-Jd-KDZ"/>
-                            <constraint firstItem="iIB-N9-Gfp" firstAttribute="top" secondItem="Qqf-uo-BxG" secondAttribute="bottom" constant="40" id="f56-jI-WBz"/>
+                            <constraint firstItem="XDD-Ya-hF6" firstAttribute="top" secondItem="Qqf-uo-BxG" secondAttribute="bottom" constant="90" id="V3j-0P-O3k"/>
+                            <constraint firstItem="Qir-GG-Mti" firstAttribute="top" secondItem="72z-wR-ja4" secondAttribute="bottom" constant="90" id="WSK-Jd-KDZ"/>
+                            <constraint firstItem="iIB-N9-Gfp" firstAttribute="top" secondItem="Qqf-uo-BxG" secondAttribute="bottom" constant="90" id="f56-jI-WBz"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="B3w-NP-qIW" appends="YES" id="ABr-sv-YBh"/>
@@ -2011,6 +2011,124 @@
             </objects>
             <point key="canvasLocation" x="3836" y="1220"/>
         </scene>
+        <!--Communication Page Controller-->
+        <scene sceneID="Diu-dS-bZu">
+            <objects>
+                <viewController storyboardIdentifier="17" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bSU-XE-n0T" customClass="CommunicationPageController" customModule="CommunicationBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aaG-yt-NNn"/>
+                        <viewControllerLayoutGuide type="bottom" id="881-IL-KOp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bLD-6F-KeW">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hle-QK-vvX">
+                                <rect key="frame" x="40" y="90" width="320" height="220"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="row row"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="Joa-vr-GwT"/>
+                                    <constraint firstAttribute="height" constant="220" id="hjW-zn-pEC"/>
+                                </constraints>
+                                <state key="normal" image="row-row"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="bSU-XE-n0T" eventType="touchDown" id="gkQ-VM-Ndd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4W9-ET-h02">
+                                <rect key="frame" x="40" y="458" width="320" height="220"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="round and round"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="1h9-9a-NJd"/>
+                                    <constraint firstAttribute="height" constant="220" id="JT0-6T-JtT"/>
+                                </constraints>
+                                <state key="normal" image="round-and-round"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="bSU-XE-n0T" eventType="touchDown" id="FoI-Zi-1iR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYL-au-xAd">
+                                <rect key="frame" x="664" y="90" width="320" height="220"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="zoom zoom"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="I1b-Ks-28s"/>
+                                    <constraint firstAttribute="height" constant="220" id="sQU-8r-0Za"/>
+                                </constraints>
+                                <state key="normal" image="zoom"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="bSU-XE-n0T" eventType="touchDown" id="NRu-Te-Ux4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRO-yW-APp">
+                                <rect key="frame" x="664" y="458" width="320" height="220"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="wheels on the bus"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="TKb-KK-3OM"/>
+                                    <constraint firstAttribute="height" constant="220" id="syf-AB-Bo5"/>
+                                </constraints>
+                                <state key="normal" image="wheels-bus"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="bSU-XE-n0T" eventType="touchDown" id="VMh-0q-EsY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="hle-QK-vvX" firstAttribute="top" secondItem="aaG-yt-NNn" secondAttribute="bottom" constant="90" id="0NU-qI-DKx"/>
+                            <constraint firstItem="hle-QK-vvX" firstAttribute="leading" secondItem="bLD-6F-KeW" secondAttribute="leadingMargin" constant="20" id="2B5-ue-BCc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZRO-yW-APp" secondAttribute="trailing" constant="20" id="3iN-n8-UGU"/>
+                            <constraint firstItem="881-IL-KOp" firstAttribute="top" secondItem="ZRO-yW-APp" secondAttribute="bottom" constant="90" id="MY1-FM-L5F"/>
+                            <constraint firstItem="zYL-au-xAd" firstAttribute="top" secondItem="aaG-yt-NNn" secondAttribute="bottom" constant="90" id="NJ5-8S-kE2"/>
+                            <constraint firstItem="881-IL-KOp" firstAttribute="top" secondItem="4W9-ET-h02" secondAttribute="bottom" constant="90" id="QCp-9B-5RW"/>
+                            <constraint firstItem="4W9-ET-h02" firstAttribute="leading" secondItem="bLD-6F-KeW" secondAttribute="leadingMargin" constant="20" id="fMR-eU-iq7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zYL-au-xAd" secondAttribute="trailing" constant="20" id="h8r-Dn-XCE"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="8YE-0L-6Xl" appends="YES" id="8t3-fR-Nyn"/>
+                            <outletCollection property="gestureRecognizers" destination="H4X-Ou-fr7" appends="YES" id="MOI-dq-HeU"/>
+                            <outletCollection property="gestureRecognizers" destination="GWM-vH-cjQ" appends="YES" id="un7-SK-h7B"/>
+                            <outletCollection property="gestureRecognizers" destination="O7w-lv-rGS" appends="YES" id="9B2-IF-iDV"/>
+                        </connections>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="grSwipeLeft" destination="O7w-lv-rGS" id="Bma-Qn-IRu"/>
+                        <outlet property="grSwipeRight" destination="GWM-vH-cjQ" id="Gvf-sk-BYn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IWY-H5-Di0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="down" id="8YE-0L-6Xl">
+                    <connections>
+                        <action selector="swipeDown:" destination="bSU-XE-n0T" id="Bdg-ac-uVU"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="GWM-vH-cjQ">
+                    <connections>
+                        <action selector="swipeRightLeft:" destination="bSU-XE-n0T" id="Cyo-YN-HNj"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="O7w-lv-rGS">
+                    <connections>
+                        <action selector="swipeRightLeft:" destination="bSU-XE-n0T" id="ndb-s2-Vr6"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="H4X-Ou-fr7">
+                    <connections>
+                        <action selector="swipeUp:" destination="bSU-XE-n0T" id="nKb-YP-znH"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="3836" y="2074"/>
+        </scene>
     </scenes>
     <resources>
         <image name="ball" width="300" height="300"/>
@@ -2020,7 +2138,7 @@
         <image name="bells" width="300" height="300"/>
         <image name="blow" width="300" height="300"/>
         <image name="blue" width="300" height="300"/>
-        <image name="bobbin" width="300" height="300"/>
+        <image name="bobbin" width="300" height="200"/>
         <image name="book" width="300" height="300"/>
         <image name="bricks" width="300" height="300"/>
         <image name="bubbles" width="300" height="300"/>
@@ -2038,7 +2156,7 @@
         <image name="happy" width="300" height="300"/>
         <image name="help" width="300" height="300"/>
         <image name="hot" width="300" height="300"/>
-        <image name="incy" width="300" height="300"/>
+        <image name="incy" width="300" height="200"/>
         <image name="instruments" width="300" height="300"/>
         <image name="knock" width="300" height="300"/>
         <image name="lights-off" width="300" height="300"/>
@@ -2049,11 +2167,13 @@
         <image name="music-1" width="300" height="300"/>
         <image name="nappy" width="300" height="300"/>
         <image name="no" width="300" height="300"/>
-        <image name="old-macdonald" width="300" height="300"/>
+        <image name="old-macdonald" width="300" height="200"/>
         <image name="one" width="300" height="300"/>
         <image name="pants" width="300" height="300"/>
         <image name="red" width="300" height="300"/>
         <image name="roll" width="300" height="300"/>
+        <image name="round-and-round" width="300" height="200"/>
+        <image name="row-row" width="300" height="200"/>
         <image name="sad" width="300" height="300"/>
         <image name="shake" width="300" height="300"/>
         <image name="shaker" width="300" height="300"/>
@@ -2069,14 +2189,16 @@
         <image name="toys" width="300" height="300"/>
         <image name="trousers" width="300" height="300"/>
         <image name="turn-page" width="300" height="300"/>
-        <image name="twinkle" width="300" height="300"/>
+        <image name="twinkle" width="300" height="200"/>
         <image name="two" width="300" height="300"/>
         <image name="up" width="300" height="300"/>
         <image name="wash-hair" width="300" height="300"/>
         <image name="wash-hands" width="300" height="300"/>
+        <image name="wheels-bus" width="300" height="200"/>
         <image name="wipe" width="300" height="300"/>
         <image name="wipes" width="300" height="300"/>
         <image name="yellow" width="300" height="300"/>
         <image name="yes" width="300" height="300"/>
+        <image name="zoom" width="300" height="200"/>
     </resources>
 </document>

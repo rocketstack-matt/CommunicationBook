@@ -12,11 +12,12 @@ import AVFoundation
 // Global variable to track previous page for navigation
 private var lastIndex = 0
 
-class CommunicationPageController: UIViewController {
+class CommunicationPageController: UIViewController, AVSpeechSynthesizerDelegate {
 
     private let MAX_VIEW = 27
     private let synth = AVSpeechSynthesizer()
-    
+    private var buttons: [UIButton] = []
+
     @IBOutlet var grSwipeRight: UISwipeGestureRecognizer!
     @IBOutlet var grSwipeLeft: UISwipeGestureRecognizer!
     
@@ -24,6 +25,13 @@ class CommunicationPageController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        view.subviews.forEach { (subview) -> () in
+            if let button = subview as? UIButton {
+                buttons.append(button)
+            }
+        }
+        
+        synth.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,7 +50,18 @@ class CommunicationPageController: UIViewController {
     }
     */
     
+    func speechSynthesizer(synthesizer: AVSpeechSynthesizer, didFinishSpeechUtterance utterance: AVSpeechUtterance) {
+        changeButtonState()
+    }
+    
+    private func changeButtonState() {
+        buttons.forEach { (button) -> () in
+            button.userInteractionEnabled = !button.userInteractionEnabled
+        }
+    }
+    
     @IBAction func touchButtonDown(sender: UIButton) {
+        changeButtonState()
         let utterance = AVSpeechUtterance(string: sender.accessibilityLabel!)
         synth.speakUtterance(utterance)
     }

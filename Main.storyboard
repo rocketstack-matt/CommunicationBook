@@ -2129,6 +2129,124 @@
             </objects>
             <point key="canvasLocation" x="3836" y="2074"/>
         </scene>
+        <!--Communication Page Controller-->
+        <scene sceneID="SIq-S8-gaP">
+            <objects>
+                <viewController storyboardIdentifier="18" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zWY-oS-FaG" customClass="CommunicationPageController" customModule="CommunicationBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wzm-yk-GOj"/>
+                        <viewControllerLayoutGuide type="bottom" id="ijA-XT-14q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IUE-oJ-Rp5">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Msu-cS-2Pf">
+                                <rect key="frame" x="40" y="90" width="320" height="220"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="heads shoulders knees and toes"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="h9K-aJ-Hhx"/>
+                                    <constraint firstAttribute="height" constant="220" id="lJu-F8-Xu9"/>
+                                </constraints>
+                                <state key="normal" image="heads-shoulders"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="zWY-oS-FaG" eventType="touchDown" id="PjN-EZ-Fl9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJO-Lc-DoH">
+                                <rect key="frame" x="40" y="458" width="320" height="220"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="five little frogs"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="XdO-Ta-qrM"/>
+                                    <constraint firstAttribute="width" constant="320" id="zk2-t9-BIY"/>
+                                </constraints>
+                                <state key="normal" image="frog"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="zWY-oS-FaG" eventType="touchDown" id="fNi-OL-INo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FhF-y0-QrB">
+                                <rect key="frame" x="664" y="90" width="320" height="220"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="if you're happy and you know it"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="ecC-ZP-2nx"/>
+                                    <constraint firstAttribute="height" constant="220" id="exd-6G-Sfg"/>
+                                </constraints>
+                                <state key="normal" image="happy-1"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="zWY-oS-FaG" eventType="touchDown" id="65l-mW-dIE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1NY-Nz-kXl">
+                                <rect key="frame" x="664" y="458" width="320" height="220"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="humpty dumpty"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="Nlw-Pa-QT0"/>
+                                    <constraint firstAttribute="width" constant="320" id="O92-WN-AKU"/>
+                                </constraints>
+                                <state key="normal" image="humpty"/>
+                                <connections>
+                                    <action selector="touchButtonDown:" destination="zWY-oS-FaG" eventType="touchDown" id="Cjr-Md-iac"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="FhF-y0-QrB" firstAttribute="top" secondItem="Wzm-yk-GOj" secondAttribute="bottom" constant="90" id="KEa-bb-RYf"/>
+                            <constraint firstItem="Msu-cS-2Pf" firstAttribute="top" secondItem="Wzm-yk-GOj" secondAttribute="bottom" constant="90" id="MXF-PV-7ak"/>
+                            <constraint firstItem="ijA-XT-14q" firstAttribute="top" secondItem="JJO-Lc-DoH" secondAttribute="bottom" constant="90" id="Wmy-7y-A1N"/>
+                            <constraint firstItem="Msu-cS-2Pf" firstAttribute="leading" secondItem="IUE-oJ-Rp5" secondAttribute="leadingMargin" constant="20" id="YHc-Vl-hnh"/>
+                            <constraint firstItem="JJO-Lc-DoH" firstAttribute="leading" secondItem="IUE-oJ-Rp5" secondAttribute="leadingMargin" constant="20" id="ZmJ-1O-JMx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FhF-y0-QrB" secondAttribute="trailing" constant="20" id="cnK-ZH-xu9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1NY-Nz-kXl" secondAttribute="trailing" constant="20" id="mdA-9E-ptT"/>
+                            <constraint firstItem="ijA-XT-14q" firstAttribute="top" secondItem="1NY-Nz-kXl" secondAttribute="bottom" constant="90" id="wqV-Dw-QNB"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="edR-jh-3GG" appends="YES" id="dcQ-eS-Fb2"/>
+                            <outletCollection property="gestureRecognizers" destination="jzA-Dj-DfX" appends="YES" id="sNv-ru-c99"/>
+                            <outletCollection property="gestureRecognizers" destination="9BL-Pv-sAz" appends="YES" id="RV9-vO-z8l"/>
+                            <outletCollection property="gestureRecognizers" destination="ikd-tt-4xQ" appends="YES" id="RPG-Iu-VNa"/>
+                        </connections>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="grSwipeLeft" destination="O7w-lv-rGS" id="dli-2V-Gs7"/>
+                        <outlet property="grSwipeRight" destination="GWM-vH-cjQ" id="9Pk-HV-mjX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xyE-TN-nLN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="down" id="edR-jh-3GG">
+                    <connections>
+                        <action selector="swipeDown:" destination="zWY-oS-FaG" id="Vo4-XZ-2DU"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="9BL-Pv-sAz">
+                    <connections>
+                        <action selector="swipeRightLeft:" destination="zWY-oS-FaG" id="SNR-7h-jMo"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="ikd-tt-4xQ">
+                    <connections>
+                        <action selector="swipeRightLeft:" destination="zWY-oS-FaG" id="HZt-90-GBn"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="jzA-Dj-DfX">
+                    <connections>
+                        <action selector="swipeUp:" destination="zWY-oS-FaG" id="Qf3-1y-Ucd"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="3836" y="2920"/>
+        </scene>
     </scenes>
     <resources>
         <image name="ball" width="300" height="300"/>
@@ -2151,11 +2269,15 @@
         <image name="fay" width="300" height="300"/>
         <image name="finished" width="300" height="300"/>
         <image name="four" width="300" height="300"/>
+        <image name="frog" width="300" height="200"/>
         <image name="fun" width="300" height="300"/>
         <image name="green" width="300" height="300"/>
         <image name="happy" width="300" height="300"/>
+        <image name="happy-1" width="300" height="200"/>
+        <image name="heads-shoulders" width="300" height="200"/>
         <image name="help" width="300" height="300"/>
         <image name="hot" width="300" height="300"/>
+        <image name="humpty" width="300" height="200"/>
         <image name="incy" width="300" height="200"/>
         <image name="instruments" width="300" height="300"/>
         <image name="knock" width="300" height="300"/>

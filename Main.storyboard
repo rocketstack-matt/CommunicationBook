@@ -2219,8 +2219,8 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
-                        <outlet property="grSwipeLeft" destination="O7w-lv-rGS" id="dli-2V-Gs7"/>
-                        <outlet property="grSwipeRight" destination="GWM-vH-cjQ" id="9Pk-HV-mjX"/>
+                        <outlet property="grSwipeLeft" destination="ikd-tt-4xQ" id="st5-tX-Qhk"/>
+                        <outlet property="grSwipeRight" destination="9BL-Pv-sAz" id="sQl-Fn-Jj1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xyE-TN-nLN" userLabel="First Responder" sceneMemberID="firstResponder"/>

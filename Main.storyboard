@@ -2323,7 +2323,7 @@
         <!--Communication Page Controller-->
         <scene sceneID="igw-YX-9h1">
             <objects>
-                <viewController storyboardIdentifier="19" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PGH-eK-Mss" customClass="CommunicationPageController" customModule="CommunicationBook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="20" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PGH-eK-Mss" customClass="CommunicationPageController" customModule="CommunicationBook" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Umw-zm-04d"/>
                         <viewControllerLayoutGuide type="bottom" id="Cpk-fb-OUn"/>
@@ -2384,6 +2384,20 @@
                                     <action selector="touchButtonDown:" destination="PGH-eK-Mss" eventType="touchDown" id="dH3-pZ-sgA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIc-Ra-ADb">
+                                <rect key="frame" x="437" y="309" width="150" height="150"/>
+                                <state key="normal" image="home-menu"/>
+                                <connections>
+                                    <segue destination="lUA-lG-S5t" kind="unwind" unwindAction="unwindToThisViewController:" id="udf-g7-493"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOO-aO-1c8">
+                                <rect key="frame" x="437" y="673" width="150" height="75"/>
+                                <state key="normal" image="down-arrow"/>
+                                <connections>
+                                    <action selector="swipeUp:" destination="PGH-eK-Mss" eventType="touchUpInside" id="Xfb-nN-Ljr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -2398,8 +2412,6 @@
                             <constraint firstItem="c9s-0o-a3d" firstAttribute="top" secondItem="Umw-zm-04d" secondAttribute="bottom" constant="40" id="yBn-o8-DQN"/>
                         </constraints>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="gKA-C2-9PZ" appends="YES" id="Eii-cK-bSd"/>
-                            <outletCollection property="gestureRecognizers" destination="Lew-9d-tPx" appends="YES" id="VeP-aO-Yxp"/>
                             <outletCollection property="gestureRecognizers" destination="SM3-LP-pWQ" appends="YES" id="5RV-3u-4v2"/>
                             <outletCollection property="gestureRecognizers" destination="Vpk-sq-XZ2" appends="YES" id="eGP-lq-0BY"/>
                         </connections>
@@ -2415,6 +2427,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ACC-LI-bNZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="lUA-lG-S5t" userLabel="Exit" sceneMemberID="exit"/>
                 <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="gKA-C2-9PZ">
                     <connections>
                         <action selector="swipeDown:" destination="PGH-eK-Mss" id="kXM-fj-bUz"/>
@@ -2436,12 +2449,12 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="3836" y="3768"/>
+            <point key="canvasLocation" x="4940" y="342"/>
         </scene>
         <!--Communication Page Controller-->
         <scene sceneID="mVm-nU-C7n">
             <objects>
-                <viewController storyboardIdentifier="20" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ONv-jM-vv2" customClass="CommunicationPageController" customModule="CommunicationBook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="19" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ONv-jM-vv2" customClass="CommunicationPageController" customModule="CommunicationBook" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uDN-Fi-qCU"/>
                         <viewControllerLayoutGuide type="bottom" id="zrw-cH-eJm"/>
@@ -2554,7 +2567,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="4940" y="342"/>
+            <point key="canvasLocation" x="3836" y="3768"/>
         </scene>
         <!--Communication Page Controller-->
         <scene sceneID="40x-bo-DuX">
@@ -2620,6 +2633,27 @@
                                     <action selector="touchButtonDown:" destination="H6d-8x-yaR" eventType="touchDown" id="jJG-C9-1mT"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ksm-cO-sie">
+                                <rect key="frame" x="437" y="309" width="150" height="150"/>
+                                <state key="normal" image="home-menu"/>
+                                <connections>
+                                    <segue destination="U1A-qv-oIS" kind="unwind" unwindAction="unwindToThisViewController:" id="0uY-UR-ZHC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DcM-lY-eme">
+                                <rect key="frame" x="437" y="673" width="150" height="75"/>
+                                <state key="normal" image="down-arrow"/>
+                                <connections>
+                                    <action selector="swipeUp:" destination="H6d-8x-yaR" eventType="touchUpInside" id="qW5-69-dO5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tm1-0C-ohE">
+                                <rect key="frame" x="437" y="20" width="150" height="75"/>
+                                <state key="normal" image="up-arrow"/>
+                                <connections>
+                                    <action selector="swipeDown:" destination="H6d-8x-yaR" eventType="touchUpInside" id="y8z-2o-eAJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -2634,8 +2668,6 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Tyb-Zy-l6M" secondAttribute="trailing" constant="20" id="zXJ-Uu-gR8"/>
                         </constraints>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="n0r-GQ-QOd" appends="YES" id="dWZ-CF-ddO"/>
-                            <outletCollection property="gestureRecognizers" destination="Bog-TE-i0Z" appends="YES" id="gvS-p4-Ihs"/>
                             <outletCollection property="gestureRecognizers" destination="EC6-Fs-tiR" appends="YES" id="swW-oZ-7QS"/>
                             <outletCollection property="gestureRecognizers" destination="ram-as-H9M" appends="YES" id="jOY-CL-K5H"/>
                         </connections>
@@ -2651,6 +2683,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3cv-6I-WbH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="U1A-qv-oIS" userLabel="Exit" sceneMemberID="exit"/>
                 <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="n0r-GQ-QOd">
                     <connections>
                         <action selector="swipeDown:" destination="H6d-8x-yaR" id="HP5-aL-v92"/>
@@ -2738,6 +2771,20 @@
                                     <action selector="touchButtonDown:" destination="zh5-VF-gDW" eventType="touchDown" id="ljn-Ha-f3O"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4py-AV-nBU">
+                                <rect key="frame" x="437" y="309" width="150" height="150"/>
+                                <state key="normal" image="home-menu"/>
+                                <connections>
+                                    <segue destination="6Db-Hz-QYa" kind="unwind" unwindAction="unwindToThisViewController:" id="HGh-WD-2kH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJX-0r-CK8">
+                                <rect key="frame" x="437" y="20" width="150" height="75"/>
+                                <state key="normal" image="up-arrow"/>
+                                <connections>
+                                    <action selector="swipeDown:" destination="zh5-VF-gDW" eventType="touchUpInside" id="1ba-Lu-4wy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -2752,8 +2799,6 @@
                             <constraint firstAttribute="trailingMargin" secondItem="fC4-Sp-4od" secondAttribute="trailing" constant="20" id="zdQ-Du-zPB"/>
                         </constraints>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="WFQ-lh-naV" appends="YES" id="OAL-zJ-mTi"/>
-                            <outletCollection property="gestureRecognizers" destination="4gR-n6-Pu0" appends="YES" id="zf7-Ce-Vo3"/>
                             <outletCollection property="gestureRecognizers" destination="3GO-US-O04" appends="YES" id="c34-6b-nOI"/>
                             <outletCollection property="gestureRecognizers" destination="Iks-je-Ymj" appends="YES" id="cZa-52-Edl"/>
                         </connections>
@@ -2769,6 +2814,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hyx-9X-ee1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="6Db-Hz-QYa" userLabel="Exit" sceneMemberID="exit"/>
                 <swipeGestureRecognizer delaysTouchesBegan="YES" direction="down" id="WFQ-lh-naV">
                     <connections>
                         <action selector="swipeDown:" destination="zh5-VF-gDW" id="Fgc-4Y-hM8"/>
@@ -3442,6 +3488,27 @@
                                             <state key="normal" image="sing"/>
                                             <connections>
                                                 <segue destination="r5z-2o-EQj" kind="presentation" modalPresentationStyle="overFullScreen" modalTransitionStyle="crossDissolve" id="VYO-tG-mwk"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <size key="customSize" width="150" height="150"/>
+                            </collectionViewCell>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="eat" id="Noh-KK-IaR">
+                                <rect key="frame" x="854" y="20" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muB-aE-Pvh">
+                                            <rect key="frame" x="10" y="10" width="130" height="130"/>
+                                            <state key="normal" image="eat"/>
+                                            <connections>
+                                                <segue destination="PGH-eK-Mss" kind="presentation" modalPresentationStyle="overFullScreen" modalTransitionStyle="crossDissolve" id="e6l-Oc-luz"/>
                                             </connections>
                                         </button>
                                     </subviews>

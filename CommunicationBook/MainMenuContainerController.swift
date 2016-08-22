@@ -18,7 +18,7 @@ class MainMenuContainerController: UICollectionViewController {
     }
     
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 4
+        return 5
     }
     
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
@@ -34,6 +34,9 @@ class MainMenuContainerController: UICollectionViewController {
             return cell
         case (0,3):
             let cell = collectionView.dequeueReusableCellWithReuseIdentifier("sing", forIndexPath: indexPath)
+            return cell
+        case (0,4):
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier("eat", forIndexPath: indexPath)
             return cell
         default:
             let cell = collectionView.dequeueReusableCellWithReuseIdentifier("family", forIndexPath: indexPath)

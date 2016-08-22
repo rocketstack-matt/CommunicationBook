@@ -2211,7 +2211,7 @@
                                     <action selector="touchButtonDown:" destination="zWY-oS-FaG" eventType="touchDown" id="PjN-EZ-Fl9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJO-Lc-DoH">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJO-Lc-DoH">
                                 <rect key="frame" x="40" y="458" width="320" height="220"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration" label="five little frogs"/>
@@ -2237,7 +2237,7 @@
                                     <action selector="touchButtonDown:" destination="zWY-oS-FaG" eventType="touchDown" id="65l-mW-dIE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1NY-Nz-kXl">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1NY-Nz-kXl">
                                 <rect key="frame" x="664" y="458" width="320" height="220"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration" label="humpty dumpty"/>
@@ -2282,12 +2282,10 @@
                             <outletCollection property="gestureRecognizers" destination="ikd-tt-4xQ" appends="YES" id="RPG-Iu-VNa"/>
                         </connections>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="iO6-S8-LAz"/>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
